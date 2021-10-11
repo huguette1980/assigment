@@ -1,4 +1,4 @@
 FROM httpd
 MAINTAINER Huguette
-RUN yum update -y
+RUN yum install httpd -y
 
